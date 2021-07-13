@@ -1,9 +1,7 @@
 a = input()
 b = input()
-
 a = a.upper()
 b = b.upper()
-
 c = 0
 
 for i in range(len(a)):
@@ -14,6 +12,4 @@ for i in range(len(a)):
     elif(a[i] > b[i]):
         c = 1
         break
-
-
 print(c)
